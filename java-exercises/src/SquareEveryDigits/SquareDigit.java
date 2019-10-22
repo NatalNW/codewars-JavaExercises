@@ -1,4 +1,4 @@
-package SquareEveryDigitis;
+package SquareEveryDigits;
 
 /*
  * Welcome. In this kata, you are asked to square every digit of a number.
