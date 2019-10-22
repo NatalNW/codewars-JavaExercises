@@ -22,6 +22,6 @@ package Dubstep;
  */
 public class Dubstep {
 	public static String SongDecoder(String song) {
-		return song.replaceAll("WUB{1,}", " ").replaceAll("\\s{1,}", " ").replaceAll("^\\s+|\\s+$", "");
+		return song.replaceAll("(WUB){1,}", " ").replaceAll("^\\s+|\\s+$", "");
 	}
 }
