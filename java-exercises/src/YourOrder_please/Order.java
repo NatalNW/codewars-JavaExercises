@@ -35,7 +35,7 @@ public class Order {
 			} else if (finalWords.contains("6")) {
 				sortedWords[5] = finalWords;
 			} else if (finalWords.contains("7")) {
-				arrOfWords[6] = finalWords;
+				sortedWords[6] = finalWords;
 			} else if (finalWords.contains("8")) {
 				sortedWords[7] = finalWords;
 			} else {
