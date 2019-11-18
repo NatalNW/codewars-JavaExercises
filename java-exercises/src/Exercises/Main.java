@@ -1,16 +1,13 @@
-package Default;
+package Exercises;
 
-import Exercises.MexicanWave;
+import Level_6.*;
+import Level_7.*;
 
 public class Main {
 
 	public static void main(String[] args) {
 		/* Mexican Wave */
-		for(String wave : MexicanWave.wave("two words")) {
-			System.out.println(wave);
-		}
-		
-		for(String wave : MexicanWave.wave(" gap ")) {
+		for(String wave : MexicanWave.wave("hello world")) {
 			System.out.println(wave);
 		}
 		

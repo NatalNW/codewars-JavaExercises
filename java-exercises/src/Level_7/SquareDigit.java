@@ -1,4 +1,4 @@
-package Exercises;
+package Level_7;
 
 /*
  * Welcome. In this kata, you are asked to square every digit of a number.

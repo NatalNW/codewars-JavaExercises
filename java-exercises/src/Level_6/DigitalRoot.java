@@ -1,4 +1,4 @@
-package Exercises;
+package Level_6;
 /*
  * In this kata, you must create a digital root function.
  * 
