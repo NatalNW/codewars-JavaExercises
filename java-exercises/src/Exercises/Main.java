@@ -6,10 +6,13 @@ import Level_7.*;
 public class Main {
 
 	public static void main(String[] args) {
-		/* Mexican Wave */
-		for(String wave : MexicanWave.wave("hello world")) {
-			System.out.println(wave);
-		}
+		/* Help the bookseller! */
+		System.out.println(StockList.stockSummary(new String[] {"ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"}, new String[] {"A", "B"}));
+		
+		// /* Mexican Wave */
+		// for(String wave : MexicanWave.wave("hello world")) {
+		// 	System.out.println(wave);
+		// }
 		
 //		/* Your order, please */
 //		System.out.println(Order.order("wha1t sh2all 3we d4o w5ith a6 dru7nken s8ailor"));
