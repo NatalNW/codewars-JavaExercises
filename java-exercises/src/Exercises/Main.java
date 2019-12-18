@@ -7,8 +7,12 @@ import Level_5.*;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		/* Dashatize it */
+		System.out.println(Dashatize.dashatize(274));
+
 		/* Josephus Survivor */
-		System.out.println(JosephusSurvivor.josephusSurvivor(7, 3));
+		// System.out.println(JosephusSurvivor.josephusSurvivor(7, 3));
 
 		/* Help the bookseller! */
 		// System.out.println(StockList.stockSummary(new String[] {"ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"}, new String[] {"A", "B"}));
