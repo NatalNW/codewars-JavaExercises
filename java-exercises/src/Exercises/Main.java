@@ -1,13 +1,17 @@
 package Exercises;
 
-import Level_6.*;
 import Level_7.*;
+import Level_6.*;
+import Level_5.*;
 
 public class Main {
 
 	public static void main(String[] args) {
+		/* Josephus Survivor */
+		System.out.println(JosephusSurvivor.josephusSurvivor(7, 3));
+
 		/* Help the bookseller! */
-		System.out.println(StockList.stockSummary(new String[] {"ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"}, new String[] {"A", "B"}));
+		// System.out.println(StockList.stockSummary(new String[] {"ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"}, new String[] {"A", "B"}));
 		
 		// /* Mexican Wave */
 		// for(String wave : MexicanWave.wave("hello world")) {
