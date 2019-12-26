@@ -8,8 +8,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		/* Dashatize it */
-		System.out.println(Dashatize.dashatize(274));
+		/* Meeting */
+		System.out.println(Meeting.meeting("Fred:Corwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Corwill;Alfred:Corwill"));
+
+//		/* Dashatize it */
+//		System.out.println(Dashatize.dashatize(274));
 
 		/* Josephus Survivor */
 		// System.out.println(JosephusSurvivor.josephusSurvivor(7, 3));
